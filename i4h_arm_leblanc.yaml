@@ -30,7 +30,7 @@ spec:
           mountPath: /external
         - name: cpf-merge
           mountPath: /external/merge
-        - name: license
+        - name: iris-license
           mountPath: /external/iris/mgr/iris.key
           subPath: iris.key
         livenessProbe:

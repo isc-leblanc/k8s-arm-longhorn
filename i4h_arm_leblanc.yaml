@@ -15,7 +15,7 @@ spec:
         app: iris
     spec:
       containers:
-      - image: store/intersystems/irishealth-community-arm64:2020.4.0.524.0
+      - image: leblancisc/irishealth-arm64:2020.4.0.524.0
         name: iris
         env:
         - name: ISC_DATA_DIRECTORY

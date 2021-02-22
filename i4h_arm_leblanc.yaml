@@ -48,7 +48,7 @@ spec:
       - name: cpf-merge
         configMap:
           name: iris-cpf-merge
-      - name: license
+      - name: iris-license
         configMap:
           name: iris-license
 ---

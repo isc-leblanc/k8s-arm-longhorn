@@ -30,7 +30,7 @@ spec:
           mountPath: /external
         - name: cpf-merge
           mountPath: /external/merge
-        - name: iris-license
+        - name: license
           mountPath: /external/iris/mgr/iris.key
           subPath: iris.key
         livenessProbe:
@@ -48,6 +48,9 @@ spec:
       - name: cpf-merge
         configMap:
           name: iris-cpf-merge
+      - name: license
+        configMap:
+          name: iris-license
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim

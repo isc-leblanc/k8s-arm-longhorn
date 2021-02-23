@@ -147,10 +147,6 @@ spec:
       protocol: TCP
       port: 47006
       targetPort: 47006
-    - name: port47006
-      protocol: TCP
-      port: 47006
-      targetPort: 47006
     - name: port47007
       protocol: TCP
       port: 47007
@@ -191,4 +187,3 @@ spec:
       protocol: TCP
       port: 47016
       targetPort: 47016
-    

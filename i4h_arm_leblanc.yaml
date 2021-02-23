@@ -25,6 +25,8 @@ spec:
         ports:
         - containerPort: 52773
           name: smp-http
+        - containerPort: 47002
+          name: port-47002
         volumeMounts:
         - name: iris-external-sys
           mountPath: /external

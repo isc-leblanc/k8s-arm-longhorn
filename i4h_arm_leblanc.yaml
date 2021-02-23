@@ -123,3 +123,72 @@ spec:
     - protocol: TCP
       port: 52773
       targetPort: 52773
+    - name: 47001
+      protocol: TCP
+      port: 47001
+      targetPort: 47001
+    - name: 47002
+      protocol: TCP
+      port: 47002
+      targetPort: 47002
+    - name: 47003
+      protocol: TCP
+      port: 47003
+      targetPort: 47003
+    - name: 47004
+      protocol: TCP
+      port: 47004
+      targetPort: 47004
+    - name: 47005
+      protocol: TCP
+      port: 47005
+      targetPort: 47005
+    - name: 47006
+      protocol: TCP
+      port: 47006
+      targetPort: 47006
+    - name: 47006
+      protocol: TCP
+      port: 47006
+      targetPort: 47006
+    - name: 47007
+      protocol: TCP
+      port: 47007
+      targetPort: 47007
+    - name: 47008
+      protocol: TCP
+      port: 47008
+      targetPort: 47008
+    - name: 47009
+      protocol: TCP
+      port: 47009
+      targetPort: 47009
+    - name: 47010
+      protocol: TCP
+      port: 47010
+      targetPort: 47010
+    - name: 47011
+      protocol: TCP
+      port: 47011
+      targetPort: 47011
+    - name: 47012
+      protocol: TCP
+      port: 47012
+      targetPort: 47012
+    - name: 47013
+      protocol: TCP
+      port: 47013
+      targetPort: 47013
+    - name: 47014
+      protocol: TCP
+      port: 47014
+      targetPort: 47014
+    - name: 47015
+      protocol: TCP
+      port: 47015
+      targetPort: 47015
+    - name: 47016
+      protocol: TCP
+      port: 47016
+      targetPort: 47016
+    

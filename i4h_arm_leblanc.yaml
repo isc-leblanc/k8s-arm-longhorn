@@ -172,19 +172,19 @@ spec:
       protocol: TCP
       port: 47012
       targetPort: 47012
-    # - name: port47013
-    #   protocol: TCP
-    #   port: 47013
-    #   targetPort: 47013
-    # - name: port47014
-    #   protocol: TCP
-    #   port: 47014
-    #   targetPort: 47014
-    # - name: port47015
-    #   protocol: TCP
-    #   port: 47015
-    #   targetPort: 47015
-    # - name: port47016
-    #   protocol: TCP
-    #   port: 47016
-    #   targetPort: 47016
+    - name: port47013
+      protocol: TCP
+      port: 47013
+      targetPort: 47013
+    - name: port47014
+      protocol: TCP
+      port: 47014
+      targetPort: 47014
+    - name: port47015
+      protocol: TCP
+      port: 47015
+      targetPort: 47015
+    - name: port47016
+      protocol: TCP
+      port: 47016
+      targetPort: 47016

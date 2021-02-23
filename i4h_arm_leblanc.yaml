@@ -89,26 +89,24 @@ data:
     LicenseID=654321
 
     [License]
-    LicenseCapacity=InterSystems IRIS 2020.2, Server:64, Core Capacity, Container(Ubuntu ARM-64)
-    CustomerName=IAM for InterSystems internal_IAM
+    LicenseCapacity=InterSystems IRIS for Health 2020.2, Enterprise:64, Concurrent User, Container(Ubuntu ARM-64)
+    CustomerName=Preview Key
     OrderNumber=54321
-    ExpirationDate=11/30/2021
-    AuthorizationKey=8527200000000000000064000649AB840EA011020F38003
+    ExpirationDate=5/23/2021
+    AuthorizationKey=412720000640000640000000000A3F2BA8F093221F18003
     MachineID=
 
 
-    [ISC.IAM]
-    Key={"license":{"version":1,"signature":"b1ee446c0141e3a4547c1f3e4654890dc4da475f7a42b7cf996ae8fbf7f618fef8d42b3db2988aff519075dd3e8ab7be59822afedb69d99aa749a2c015a1e610","payload":{"customer":"InterSystems","license_creation_date":"2020-9-3","product_subscription":"Kong Enterprise Edition","support_plan":"None","admin_seats":"5","dataplanes":"","license_expiration_date":"2021-09-03","license_key":"0014100001w24ExAAI_a1V1K000007PyK4UAK"}}}
-
     [License Characteristics]
-    Licensed Product: Server
-    Licensed Type: Core Capacity
+    Licensed Product: Enterprise
+    Licensed Type: Concurrent User
     Licensed Platform: Container(Ubuntu ARM-64)
-    Cores licensed: 64
-    Designation: ISC Internal
-    Multi-Server license
-    IntegratedML enabled
-    API Management enabled
+    Users licensed: 64
+    Designation: Field Test
+    Multi_Server=enabled
+    HealthShare=enabled
+    HealthShare_Core=enabled
+    IntegratedML=enabled
 ---
 apiVersion: v1
 kind: Service

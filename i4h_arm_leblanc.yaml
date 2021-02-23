@@ -58,7 +58,7 @@ metadata:
 spec:
   # to install Longhorn use:
   #  kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/master/deploy/longhorn.yaml
-  storageClassName: longhorn
+  #storageClassName: longhorn
   accessModes:
     - ReadWriteOnce
   resources:

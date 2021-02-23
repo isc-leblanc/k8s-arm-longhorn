@@ -79,8 +79,10 @@ metadata:
 data:
   merge.cpf: |-
     [config]
-    globals=0,0,800,0,0,0
-    gmheap=256000
+    globals=0,0,8192,0,0,0
+    gmheap=536871
+    routines=384
+    locksiz=100663296
 ---
 apiVersion: v1
 kind: ConfigMap

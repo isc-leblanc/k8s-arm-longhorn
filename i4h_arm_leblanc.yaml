@@ -128,50 +128,50 @@ spec:
       protocol: TCP
       port: 47001
       targetPort: 47001
-    # - name: port47002
-    #   protocol: TCP
-    #   port: 47002
-    #   targetPort: 47002
-    # - name: port47003
-    #   protocol: TCP
-    #   port: 47003
-    #   targetPort: 47003
-    # - name: port47004
-    #   protocol: TCP
-    #   port: 47004
-    #   targetPort: 47004
-    # - name: port47005
-    #   protocol: TCP
-    #   port: 47005
-    #   targetPort: 47005
-    # - name: port47006
-    #   protocol: TCP
-    #   port: 47006
-    #   targetPort: 47006
-    # - name: port47007
-    #   protocol: TCP
-    #   port: 47007
-    #   targetPort: 47007
-    # - name: port47008
-    #   protocol: TCP
-    #   port: 47008
-    #   targetPort: 47008
-    # - name: port47009
-    #   protocol: TCP
-    #   port: 47009
-    #   targetPort: 47009
-    # - name: port47010
-    #   protocol: TCP
-    #   port: 47010
-    #   targetPort: 47010
-    # - name: port47011
-    #   protocol: TCP
-    #   port: 47011
-    #   targetPort: 47011
-    # - name: port47012
-    #   protocol: TCP
-    #   port: 47012
-    #   targetPort: 47012
+    - name: port47002
+      protocol: TCP
+      port: 47002
+      targetPort: 47002
+    - name: port47003
+      protocol: TCP
+      port: 47003
+      targetPort: 47003
+    - name: port47004
+      protocol: TCP
+      port: 47004
+      targetPort: 47004
+    - name: port47005
+      protocol: TCP
+      port: 47005
+      targetPort: 47005
+    - name: port47006
+      protocol: TCP
+      port: 47006
+      targetPort: 47006
+    - name: port47007
+      protocol: TCP
+      port: 47007
+      targetPort: 47007
+    - name: port47008
+      protocol: TCP
+      port: 47008
+      targetPort: 47008
+    - name: port47009
+      protocol: TCP
+      port: 47009
+      targetPort: 47009
+    - name: port47010
+      protocol: TCP
+      port: 47010
+      targetPort: 47010
+    - name: port47011
+      protocol: TCP
+      port: 47011
+      targetPort: 47011
+    - name: port47012
+      protocol: TCP
+      port: 47012
+      targetPort: 47012
     # - name: port47013
     #   protocol: TCP
     #   port: 47013

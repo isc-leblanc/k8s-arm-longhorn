@@ -31,7 +31,8 @@ spec:
         - name: cpf-merge
           mountPath: /external/merge
         - name: license
-          mountPath: /external/license
+          mountPath: /external/iris.key
+          subMount: iris.key
         livenessProbe:
           initialDelaySeconds: 25
           periodSeconds: 10

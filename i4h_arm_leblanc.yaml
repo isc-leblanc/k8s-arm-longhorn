@@ -33,6 +33,9 @@ spec:
         - name: license
           mountPath: /external/iris.key
           subPath: iris.key
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsUser: 0
         livenessProbe:
           initialDelaySeconds: 25
           periodSeconds: 10

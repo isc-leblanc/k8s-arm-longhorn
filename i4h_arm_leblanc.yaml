@@ -30,9 +30,8 @@ spec:
           mountPath: /external
         - name: cpf-merge
           mountPath: /external/merge
-       # - name: iris-license
-       #   mountPath: /external/iris/mgr/iris.key
-       #   subPath: iris.key
+        - name: license
+          mountPath: /external/iris/mgr
         livenessProbe:
           initialDelaySeconds: 25
           periodSeconds: 10
@@ -48,9 +47,9 @@ spec:
       - name: cpf-merge
         configMap:
           name: iris-cpf-merge
-      #- name: iris-license
-      #  configMap:
-      #    name: iris-license
+      - name: license
+        configMap:
+          name: iris-license
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -77,37 +76,37 @@ data:
     globals=0,0,800,0,0,0
     gmheap=256000
 ---
-# apiVersion: v1
-# kind: ConfigMap
-# metadata:
-#   name: iris-license
-#   namespace: default
-# data:
-#   iris.key: |-
-#     [ConfigFile]
-#     FileType=InterSystems License Rev-A.1
-#     LicenseID=654321
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: iris-license
+  namespace: default
+data:
+  iris.key: |-
+    [ConfigFile]
+    FileType=InterSystems License Rev-A.1
+    LicenseID=654321
 
-#     [License]
-#     LicenseCapacity=InterSystems IRIS for Health 2020.2, Enterprise:64, Concurrent User, Container(Ubuntu ARM-64)
-#     CustomerName=Preview Key
-#     OrderNumber=54321
-#     ExpirationDate=5/23/2021
-#     AuthorizationKey=412720000640000640000000000A3F2BA8F093221F18003
-#     MachineID=
+    [License]
+    LicenseCapacity=InterSystems IRIS for Health 2020.2, Enterprise:64, Concurrent User, Container(Ubuntu ARM-64)
+    CustomerName=Preview Key
+    OrderNumber=54321
+    ExpirationDate=5/23/2021
+    AuthorizationKey=412720000640000640000000000A3F2BA8F093221F18003
+    MachineID=
 
 
-#     [License Characteristics]
-#     Licensed Product: Enterprise
-#     Licensed Type: Concurrent User
-#     Licensed Platform: Container(Ubuntu ARM-64)
-#     Users licensed: 64
-#     Designation: Field Test
-#     Multi_Server=enabled
-#     HealthShare=enabled
-#     HealthShare_Core=enabled
-#     IntegratedML=enabled
-# ---
+    [License Characteristics]
+    Licensed Product: Enterprise
+    Licensed Type: Concurrent User
+    Licensed Platform: Container(Ubuntu ARM-64)
+    Users licensed: 64
+    Designation: Field Test
+    Multi_Server=enabled
+    HealthShare=enabled
+    HealthShare_Core=enabled
+    IntegratedML=enabled
+---
 apiVersion: v1
 kind: Service
 metadata:
